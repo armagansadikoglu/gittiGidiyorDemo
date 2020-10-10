@@ -9,9 +9,9 @@ public class GittiGidiyorTest extends GGBase {
     public void kullaniciKayitTest(){
         clickElementByXpath("div","data-cy","header-user-menu");
         clickElementByXpath("a","data-cy","header-register-button");
-        sendKeysToElementByName("name","ali");
+        sendKeysToElementByName("name","ali veli");
         sendKeysToElementByName("surname","velioglu");
-        sendKeysToElementByName("email","tmastercs@pkinform.ru");
+        sendKeysToElementByName("email","lbhatiapara@minnacarter.com");
         sendKeysToElementByName("passwd","*Asd123*");
         sendKeysToElementByName("gsmData","5551234599");
         clickElementByXpath("label","for","informed-email");
